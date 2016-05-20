@@ -9,7 +9,6 @@ enctype="multipart/form-data">
 <input type="hidden" name="id" value="<?php echo $data['id'];?>">
 <table>
 <tr>
-<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
 <td>Nama</td>
 <td><input type="text" name="nama" value="
 <?php echo $data['nama'];?>"></td>
@@ -21,7 +20,7 @@ enctype="multipart/form-data">
 </tr>
 <tr>
 <td>Logo</td>
-<td><img class="img-small" src="assets/
+<td><img class="img-small" src="assets/foto/
 <?php echo $data['logo'];?>">
 <input type="file" name="logo"></td>
 </tr>
